@@ -11,82 +11,99 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      /* Ensure sections are visible */
+      .passion-section {
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+      }
+    </style>
   </head>
   <body>
-    <div><header>
-      <nav>
-        <a href="index.html" class="logo">AARON DENIZ</a>
-        <ul class="nav-links">
-          <li><a href="index.html" class="">Home</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="passions.html" class="active">Passions</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <button class="mobile-menu-btn">☰</button>
-      </nav>
-    </header><main class="page-container"><div class="container" style="padding: 150px 5% 100px;">
-      <h1 class="section-title">My Passions</h1>
-      
-      <section class="passion-section fade-in active">
-        <h2>Formula 1</h2>
-        <div class="passion-content">
-          <img src="src/images/9.webp" alt="Formula 1" class="passion-img">
-          <div class="passion-text">
-            <p>Formula 1 represents the pinnacle of motorsport engineering and human performance. My fascination with F1 goes beyond the races - I'm captivated by the technical innovations, aerodynamic principles, and the constant push for improvement.</p>
-            <p>As a dedicated fan of Lando Norris and McLaren, I follow their development closely, analyzing their technical decisions and race strategies. The way McLaren has evolved their car to become competitive again demonstrates the importance of persistence and innovation.</p>
-          </div>
-        </div>
-        
-        <div class="f1-grid">
-          <div class="f1-card fade-in">
-            <img src="src/images/10.JPG" alt="Lando Norris" class="f1-img">
-            <div class="f1-info">
-              <h3>Lando Norris</h3>
-              <p>My favorite driver, Lando represents the new generation of F1 talent. His skilled driving, technical feedback, and positive personality make him a standout on the grid.</p>
-            </div>
-          </div>
+    <div id="root">
+      <header>
+        <nav>
+          <a href="index.html" class="logo">AARON DENIZ</a>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="passions.html" class="active">Passions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <button class="mobile-menu-btn">☰</button>
+        </nav>
+      </header>
+
+      <main class="page-container">
+        <div class="container" style="padding: 150px 5% 100px;">
+          <h1 class="section-title">My Passions</h1>
           
-          <div class="f1-card fade-in">
-            <img src="src/images/11.JPG" alt="McLaren F1 Team" class="f1-img">
-            <div class="f1-info">
-              <h3>McLaren F1 Team</h3>
-              <p>McLaren combines rich heritage with cutting-edge innovation. Their journey back to the front of the grid demonstrates resilience and technical excellence.</p>
+          <section class="passion-section">
+            <h2>Formula 1</h2>
+            <div class="passion-content">
+              <img src="src/images/9.webp" alt="Formula 1" class="passion-img">
+              <div class="passion-text">
+                <p>Formula 1 represents the pinnacle of motorsport engineering and human performance. My fascination with F1 goes beyond the races - I'm captivated by the technical innovations, aerodynamic principles, and the constant push for improvement.</p>
+                <p>As a dedicated fan of Lando Norris and McLaren, I follow their development closely, analyzing their technical decisions and race strategies. The way McLaren has evolved their car to become competitive again demonstrates the importance of persistence and innovation.</p>
+              </div>
             </div>
+
+            <div class="f1-grid">
+              <div class="f1-card">
+                <img src="src/images/10.jpg" alt="Lando Norris" class="f1-img">
+                <div class="f1-info">
+                  <h3>Lando Norris</h3>
+                  <p>My favorite driver, Lando represents the new generation of F1 talent. His skilled driving, technical feedback, and positive personality make him a standout on the grid.</p>
+                </div>
+              </div>
+              
+              <div class="f1-card">
+                <img src="src/images/11.jpg" alt="McLaren F1 Team" class="f1-img">
+                <div class="f1-info">
+                  <h3>McLaren F1 Team</h3>
+                  <p>McLaren combines rich heritage with cutting-edge innovation. Their journey back to the front of the grid demonstrates resilience and technical excellence.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="passion-section">
+            <h2>Running</h2>
+            <div class="passion-content">
+              <div class="passion-text">
+                <p>Running is more than just exercise for me - it's a way to clear my mind, challenge myself, and connect with nature. I regularly participate in local races and enjoy pushing my limits in both speed and endurance events.</p>
+                <p>The discipline and determination required for long-distance running have valuable parallels in engineering. Both require strategic planning, efficient resource management, and continuous adaptation based on feedback.</p>
+              </div>
+              <img src="src/images/12.jpg" alt="Running" class="passion-img">
+            </div>
+          </section>
+
+          <section class="passion-section">
+            <h2>Football</h2>
+            <div class="passion-content">
+              <img src="src/images/13.avif" alt="Football" class="passion-img">
+              <div class="passion-text">
+                <p>Football combines individual skill with team strategy, making it both exciting to watch and rich with tactical complexity. I appreciate the beautiful game for its moments of brilliance and the way it brings people together.</p>
+                <p>Whether playing casually with friends or analyzing professional matches, football provides both an escape from work and inspiration for problem-solving approaches that can be applied to engineering challenges.</p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer>
+        <div class="footer-content">
+          <div class="social-links">
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
           </div>
+          <p class="copyright">© 2025 Aaron Deniz. All rights reserved.</p>
         </div>
-      </section>
-      
-      <section class="passion-section fade-in">
-        <h2>Running</h2>
-        <div class="passion-content">
-          <div class="passion-text">
-            <p>Running is more than just exercise for me - it's a way to clear my mind, challenge myself, and connect with nature. I regularly participate in local races and enjoy pushing my limits in both speed and endurance events.</p>
-            <p>The discipline and determination required for long-distance running have valuable parallels in engineering. Both require strategic planning, efficient resource management, and continuous adaptation based on feedback.</p>
-          </div>
-          <img src="src/images/12.JPG" alt="Running" class="passion-img">
-        </div>
-      </section>
-      
-      <section class="passion-section fade-in">
-        <h2>Football</h2>
-        <div class="passion-content">
-          <img src="src/images/13.avif" alt="Football" class="passion-img">
-          <div class="passion-text">
-            <p>Football combines individual skill with team strategy, making it both exciting to watch and rich with tactical complexity. I appreciate the beautiful game for its moments of brilliance and the way it brings people together.</p>
-            <p>Whether playing casually with friends or analyzing professional matches, football provides both an escape from work and inspiration for problem-solving approaches that can be applied to engineering challenges.</p>
-          </div>
-        </div>
-      </section>
-    </div></main><footer>
-      <div class="footer-content">
-        <div class="social-links">
-          <a href="https://github.com" target="_blank">GitHub</a>
-          <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-          <a href="https://twitter.com" target="_blank">Twitter</a>
-        </div>
-        <p class="copyright">© 2025 Aaron Deniz. All rights reserved.</p>
-      </div>
-    </footer></div>
+      </footer>
+    </div>
+
     <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
     <script src="src/main.js" type="module"></script>
   </body>
