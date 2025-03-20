@@ -7,14 +7,96 @@
     <meta name="description" content="Engineering projects by Aaron Deniz" />
     <meta name="author" content="Aaron Deniz" />
     <meta property="og:image" content="/og-image.png" />
-    <link rel="stylesheet" href="/src/styles.css">
+    <link rel="stylesheet" href="src/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root"><header>
+      <nav>
+        <a href="index.html" class="logo">AARON DENIZ</a>
+        <ul class="nav-links">
+          <li><a href="index.html" class="">Home</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="passions.html">Passions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="mobile-menu-btn">☰</button>
+      </nav>
+    </header><main class="page-container"><div class="container" style="padding: 150px 5% 100px;">
+      <h1 class="section-title">My Projects</h1>
+      <p style="text-align: center; max-width: 800px; margin: 0 auto 50px;">
+        Here are some of my engineering projects focused on automotive technology, F1 racing, and performance optimization.
+      </p>
+      
+      <div class="projects-grid">
+        <div class="project-card fade-in active">
+          <img src="src/images/5.jpeg" alt="F1 Aerodynamics Simulation" class="project-img">
+          <div class="project-info">
+            <h3>F1 Aerodynamics Simulation</h3>
+            <p>A computational fluid dynamics project that simulates the aerodynamic performance of F1 car components.</p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">CFD</span>
+              <span class="project-tag">F1</span>
+            </div>
+            <a href="#" class="btn">View Project</a>
+          </div>
+        </div>
+        
+        <div class="project-card fade-in">
+          <img src="src/images/6.JPG" alt="Electric Vehicle Battery Management" class="project-img">
+          <div class="project-info">
+            <h3>EV Battery Management System</h3>
+            <p>Designed and implemented an advanced battery management system for electric vehicles to optimize performance and longevity.</p>
+            <div class="project-tags">
+              <span class="project-tag">C++</span>
+              <span class="project-tag">Hardware</span>
+              <span class="project-tag">Automotive</span>
+            </div>
+            <a href="#" class="btn">View Project</a>
+          </div>
+        </div>
+        
+        <div class="project-card fade-in">
+          <img src="src/images/7.PNG" alt="Race Telemetry Analysis" class="project-img">
+          <div class="project-info">
+            <h3>Race Telemetry Analysis Tool</h3>
+            <p>A software tool that analyzes telemetry data from racing events to provide insights into performance optimization.</p>
+            <div class="project-tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">Data Analysis</span>
+              <span class="project-tag">Racing</span>
+            </div>
+            <a href="#" class="btn">View Project</a>
+          </div>
+        </div>
+        
+        <div class="project-card fade-in">
+          <img src="src/images/8.AVIF" alt="Running Performance App" class="project-img">
+          <div class="project-info">
+            <h3>Runner's Performance Tracker</h3>
+            <p>A mobile application that tracks running performance metrics and provides personalized training recommendations.</p>
+            <div class="project-tags">
+              <span class="project-tag">Swift</span>
+              <span class="project-tag">iOS</span>
+              <span class="project-tag">Running</span>
+            </div>
+            <a href="#" class="btn">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div></main><footer>
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="https://github.com" target="_blank">GitHub</a>
+          <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+          <a href="https://twitter.com" target="_blank">Twitter</a>
+        </div>
+        <p class="copyright">© 2025 Aaron Deniz. All rights reserved.</p>
+      </div>
     <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script src="/src/main.js" type="module"></script>
+    <script src="src/main.js" type="module"></script>
   </body>
 </html>
